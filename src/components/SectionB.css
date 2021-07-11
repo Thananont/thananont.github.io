@@ -1,0 +1,51 @@
+#home-a .specials {
+  margin-top: 3rem;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#home-a .specials .fab {
+  padding-bottom: 0.4rem;
+}
+
+#home-a .specials .fa-replacement-python {
+  width: 64px;
+  height: 64px;
+}
+
+#home-a .specials .fa-replacement-C {
+  width: 64px;
+  height: 64px;
+}
+
+#home-a .specials .fa-replacement-html {
+  width: 64px;
+  height: 64px;
+}
+
+#home-a .specials .fa-replacement-css {
+  width: 48px;
+  height: 64px;
+}
+
+#home-a .specials .fa-replacement-mysql {
+  width: 64px;
+  height: 64px;
+}
+
+#home-a .specials .fa-java {
+  color: #ff0000;
+}
+
+#home-a .specials .fa-python {
+  color: #306998;
+}
+
+#home-a .specials .fa-js {
+  color: var(--main-color);
+}
+
+#home-a .specials .fa-react {
+  color: #61dbfb;
+}

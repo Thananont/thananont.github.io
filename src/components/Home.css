@@ -1,0 +1,73 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.home {
+  height: 1200px;
+  background: #ddd;
+  color: #333;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.text-container {
+  width: 500px
+}
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  object-fit: cover;
+}
+
+.experience {
+  display: flex;
+  height: 700px;
+  width: 90%;
+}
+
+.box {
+  background:  white no-repeat;
+  background-size: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 25px;
+  margin: 25px;
+  border: #d66d6d solid 3px;
+  flex: 1;
+  transition: 1s;
+  width: 30px;
+  height: 100%;
+}
+
+.box:hover {
+  flex: 4;
+  background: url('../img/SSIS2.jpg');
+}
+
+.box h1 {
+  transition: 1s;
+}
+
+.ssis img {
+  width: 300px;
+  height: 300px;
+}
+
+.chula img {
+  width: 200px;
+  height: 300px;
+}
+
+.true img {
+  width: 400px;
+  height: 400px;
+}

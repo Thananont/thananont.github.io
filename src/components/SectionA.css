@@ -1,0 +1,105 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.home {
+  height: 1200px;
+  background: #ddd;
+  color: #333;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  background: white no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 25px;
+  margin: 25px;
+  flex: 0.5;
+  transition: 1s ease-out;
+  width: 30px;
+  overflow: hidden;
+  border: black solid 1px;
+  box-shadow: 1px 3px 5px #888;
+}
+
+.box:hover {
+  flex: 4;
+  overflow: hidden;
+}
+
+.ssis .Bg-box {
+  width: 2000px;
+  height: auto;
+  margin-bottom: 300px;
+  margin-right: 150px;
+  z-index: -1;
+}
+
+.chula .Bg-box {
+  width: 1200px;
+  height: auto;
+  margin-right: 150px;
+  z-index: -1;
+}
+
+.true .Bg-box {
+  width: 1000px;
+  height: auto;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  z-index: -1;
+}
+
+.box .box-text {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  margin: 25px;
+  width: 250px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: black;
+  color: black;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .box-text h2 {
+  padding: 15px 20px 0px;
+}
+
+.box .box-text p {
+  padding: 3px 20px 10px;
+}
+
+.ssis img {
+  width: 300px;
+  height: 300px;
+}
+
+.chula img {
+  width: 200px;
+  height: 300px;
+}
+
+.true img {
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,109 @@
+/* Main Container */
+.main-container {
+  margin: 0 5rem 0 5rem;
+}
+
+/* Logo */
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Main Nav */
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav li {
+  padding: 1rem 1.5rem;
+}
+
+li .no-left-padding {
+  padding: 1rem 1.5rem 1rem 0rem;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+
+#main-nav div {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+  cursor: pointer;
+}
+
+#main-nav div:hover {
+  border-color: var(--medium-color);
+}
+
+#main-nav div.current {
+  border-color: var(--main-color);
+}
+
+/* Secondary Nav */
+#follow-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--dark-color);
+  z-index: 9;
+}
+
+#follow-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+#follow-nav li {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+#follow-nav div {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: border-color 0.5s;
+}
+
+#follow-nav li:hover {
+  background: #282828;
+}
+
+#follow-nav div.current {
+  color: var(--main-color);
+}
+
+/* Content */
+#header-home {
+  background: #282828 var(--my-image) no-repeat right / contain;
+  height: 100vh;
+  color: #fff;
+}
+
+#header-home .header-content {
+  text-align: left;
+  padding-top: 20%;
+}
+
+#header-home .header-content h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}

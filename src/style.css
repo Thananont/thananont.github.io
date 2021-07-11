@@ -1,0 +1,126 @@
+:root {
+  --website-width: 1280px;
+  --main-color: #ffbc00;
+  --light-color: #f4f4f4;
+  --medium-color: #ccc;
+  --dark-color: #333;
+  --my-image: url("../src/img/Jom.jpg");
+}
+
+/* General CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "dosis", sans-serif;
+  list-style: 1.6;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utilities CSS */
+.container {
+  max-width: var(--website-width);
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5;
+  border: none;
+  cursor: pointer;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn:hover {
+  background: var(--main-color);
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: var(--main-color);
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.hidden {
+  display: none;
+  pointer-events: none;
+}
+
+/* Padding */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
