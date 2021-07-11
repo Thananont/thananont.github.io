@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55101292.chunk.css",
+    "main.js": "/static/js/main.41124704.chunk.js",
+    "main.js.map": "/static/js/main.41124704.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b205a342.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b205a342.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.7615f7c2.chunk.js": "/static/js/2.7615f7c2.chunk.js",
+    "static/js/2.7615f7c2.chunk.js.map": "/static/js/2.7615f7c2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/static/css/2.b57b7cfd.chunk.css.map",
+    "static/css/main.55101292.chunk.css.map": "/static/css/main.55101292.chunk.css.map",
+    "static/js/2.7615f7c2.chunk.js.LICENSE.txt": "/static/js/2.7615f7c2.chunk.js.LICENSE.txt",
+    "static/media/C++.0a81196c.png": "/static/media/C++.0a81196c.png",
+    "static/media/Chula.a63aefc2.jpg": "/static/media/Chula.a63aefc2.jpg",
+    "static/media/Chula.abf0e827.png": "/static/media/Chula.abf0e827.png",
+    "static/media/FogFarm1.5fd4761a.jpg": "/static/media/FogFarm1.5fd4761a.jpg",
+    "static/media/FogFarm2.29fe0f49.jpg": "/static/media/FogFarm2.29fe0f49.jpg",
+    "static/media/FogFarm3.b10e8898.png": "/static/media/FogFarm3.b10e8898.png",
+    "static/media/FogFarm4.b73fbec0.jpg": "/static/media/FogFarm4.b73fbec0.jpg",
+    "static/media/style.css": "/static/media/Jom.8cad97ed.jpg",
+    "static/media/SSIS2.b1739eb9.jpg": "/static/media/SSIS2.b1739eb9.jpg",
+    "static/media/SSISTrans.cfe106f3.png": "/static/media/SSISTrans.cfe106f3.png",
+    "static/media/Tapme.314879e3.png": "/static/media/Tapme.314879e3.png",
+    "static/media/Tapme1.a6dd1cc1.png": "/static/media/Tapme1.a6dd1cc1.png",
+    "static/media/Tapme2.8df14438.png": "/static/media/Tapme2.8df14438.png",
+    "static/media/Tapme3.32536a56.png": "/static/media/Tapme3.32536a56.png",
+    "static/media/Thananont_Chevaphatrakul_Resume.ecb691f4.pdf": "/static/media/Thananont_Chevaphatrakul_Resume.ecb691f4.pdf",
+    "static/media/True.67d901df.png": "/static/media/True.67d901df.png",
+    "static/media/True.bed44598.jpg": "/static/media/True.bed44598.jpg",
+    "static/media/css.cc7ff0e0.png": "/static/media/css.cc7ff0e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b205a342.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.7615f7c2.chunk.js",
+    "static/css/main.55101292.chunk.css",
+    "static/js/main.41124704.chunk.js"
+  ]
+}
