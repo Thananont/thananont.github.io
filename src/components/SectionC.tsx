@@ -19,7 +19,7 @@ export default function SectionC() {
         <h2 className="section-title">My Projects</h2>
         <div className="bottom-line"></div>
         <div className="preview">
-          <Slide easing="ease" autoplay={false}>
+          <Slide easing="ease">
             <div className="each-slide" onClick={() => popUp("1")}>
               <div>
                 <img src={TapmePreview} alt="" />

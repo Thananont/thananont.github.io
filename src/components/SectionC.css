@@ -1,3 +1,13 @@
+@media only screen and (max-width: 800px) {
+  #home-c .container {
+    padding: 0;
+  }
+
+  .each-slide {
+    width: 768px !important;
+  }
+}
+
 /* Modal */
 .modal {
   position: fixed;
@@ -99,11 +109,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
   height: 100%;
 }
 
 .each-slide img {
-  width: auto;
   max-width: 100%;
   height: 400px;
 }

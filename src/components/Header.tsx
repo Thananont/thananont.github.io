@@ -144,10 +144,12 @@ export default function Header() {
           <div></div>
         </nav>
         <div className="header-content">
-          <h1>I Am Thananont The {text}|</h1>
+          <h1>
+            I Am Thananont <span className="break">The {text}|</span>
+          </h1>
           <p className="lead">
-            I am a fresh graduate majored in Information and Communication
-            Engineering
+            I am a fresh graduate majored in<span className="break"></span>
+            Information and Communication Engineering
           </p>
           <a href={PDF} className="btn btn-light">
             View My Resume

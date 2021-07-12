@@ -37,7 +37,7 @@ export default function SectionA() {
           </div>
           <div>
             <img src={CSS} alt="" className="fa-replacement-css" />
-            <h3>React</h3>
+            <h3>CSS</h3>
           </div>
           <div>
             <i className="fab fa-react fa-4x"></i>
